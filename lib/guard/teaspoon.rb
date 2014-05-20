@@ -11,6 +11,7 @@ module Guard
     def initialize(options = {})
       super
       @options = {
+        spring:               false,
         focus_on_failed:      false,
         all_after_pass:       true,
         all_on_start:         true,
